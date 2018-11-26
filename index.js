@@ -169,7 +169,7 @@ export const createImageProgress = ImageComponent =>
         imageStyle,
         ...props
       } = this.props;
-
+/*
       if (!source || !source.uri) {
         // This is not a networked asset so fallback to regular image
         return (
@@ -182,7 +182,7 @@ export const createImageProgress = ImageComponent =>
             {children}
           </View>
         );
-      }
+      }*/
       const {
         progress,
         sourceKey,

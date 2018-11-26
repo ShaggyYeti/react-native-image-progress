@@ -169,20 +169,7 @@ export const createImageProgress = ImageComponent =>
         imageStyle,
         ...props
       } = this.props;
-/*
-      if (!source || !source.uri) {
-        // This is not a networked asset so fallback to regular image
-        return (
-          <View style={style} ref={this.handleRef}>
-            <ImageComponent
-              {...props}
-              source={source}
-              style={[StyleSheet.absoluteFill, imageStyle]}
-            />
-            {children}
-          </View>
-        );
-      }*/
+
       const {
         progress,
         sourceKey,
